@@ -184,7 +184,7 @@ function frameLooper() {
 
 	radius_old = radius;
     prevArray = fbc_array;
-	radius =  75 + (intensity * 0.001);
+	radius =  75 + (intensity * 0.002);
     if(Math.abs(radius_old - radius) > 1 && radius > radius_old){
         radius = radius_old + 6;
     }
