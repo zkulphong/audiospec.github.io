@@ -53,8 +53,8 @@ function initPage() {
 }
 
 function resize_canvas() {
-		canvas.width  = window.innerWidth;
-		canvas.height = window.innerHeight;
+		canvas.width  = screen.width;
+		canvas.height = screen.height;
 }
 
 function handleButton2(){
